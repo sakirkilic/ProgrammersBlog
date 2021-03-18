@@ -8,5 +8,6 @@ namespace ProgrammersBlog.Services
 {
 	class DenemeClass
 	{
+		string NAME;
 	}
 }
