@@ -19,7 +19,7 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Contexts
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			optionsBuilder.UseSqlServer(@"server=DESKTOP-GQ9BMNC;database=ProgrammersBlog;uid=sa;pwd=123");
+			optionsBuilder.UseSqlServer(@"server=SK34TK-SKILIC\MSSQLSERVER01;database=ProgrammersBlog;uid=sa;pwd=123");
 			
 		}
 
@@ -33,3 +33,4 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Contexts
 		}
 	}
 }
+// sqllite mysql ilede denenebilir.
