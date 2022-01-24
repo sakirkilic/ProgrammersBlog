@@ -19,7 +19,7 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Contexts
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			optionsBuilder.UseSqlServer(@"server=SK34TK-SKILIC\MSSQLSERVER01;database=ProgrammersBlog;uid=sa;pwd=123");
+			optionsBuilder.UseSqlServer(@"server=SK34TK-SKILIC\MSSQLSERVER01;Database=ProgrammersBlog;Trusted_Connection=True;Connect Timeout=30;MultipleActiveResultSets=True;");
 			
 		}
 
